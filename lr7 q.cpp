@@ -83,7 +83,7 @@ int main()
     element elem;
     int a;
     for (int i = 0; i < 5; ++i) {
-        std::cin >> a;
+        cin >> a;
         elem.value = a;
         push(que, elem);
         
